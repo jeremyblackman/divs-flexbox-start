@@ -109,6 +109,38 @@ body {
   height: 100%;
 }
 
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header {
+    font-size: 4em;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    color: transparent;
+}
+
+main span {
+    color: pink;
+}
+
+main {
+    font-size: 1.5em;
+}
+
+footer {
+    border-top: 5px;
+}
+
+footer i {
+    padding: 30px 20px 0 0;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
